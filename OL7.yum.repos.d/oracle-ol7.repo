@@ -1,0 +1,6 @@
+[ol7_oracle_instantclient]
+name=Oracle Intant Client for Oracle Linux $releasever ($basearch)
+baseurl=https://yum$ociregion.oracle.com/repo/OracleLinux/OL7/oracle/instantclient/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
+gpgcheck=1
+enabled=1

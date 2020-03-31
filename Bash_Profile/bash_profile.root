@@ -1,0 +1,21 @@
+## Utils MFribla
+export MF_BIN=/opt/bin
+export PATH=$MF_BIN:$PATH
+## GO Lang
+export GOPATH=/root/Proyectos/GO
+export PATH=.:/usr/local/go/bin:$GOPATH/bin:$PATH
+## JAVA
+export JAVA_HOME=/opt/jdk1.8.0_241
+export PATH=.:$JAVA_HOME/bin:$PATH
+## Spring Studio
+export STS_HOME=/opt/sts4.5.1
+export PATH=$STS_HOME:$PATH
+## Python
+export PYCHARM_JDK=$JAVA_HOME/jre
+export PYCHARM=/opt/pycharm.2019.3.4
+export PATH=$PYCHARM/bin:$PYCHARM_JDK/bin:$PATH
+## Eclipse
+export PATH=/opt/eclipse:$PATH
+# DISPLAY
+export DISPLAY=192.168.1.161:0.0
+
